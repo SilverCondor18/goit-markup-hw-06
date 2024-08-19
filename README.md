@@ -1,2 +1,3 @@
-# goit-markup-hw-01
-My first web page
+# goit-markup-hw-02
+
+My first web page (with some CSS styles)
