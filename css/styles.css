@@ -59,9 +59,14 @@ ul, ol
     color: #4d5ae5;
 }
 
-.site-logo .part2
+.studio-dark
 {
     color: #2e2f42;
+}
+
+.studio-light
+{
+    color: #f4f4fd;
 }
 
 .main-menu
