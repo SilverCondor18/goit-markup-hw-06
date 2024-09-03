@@ -1,10 +1,9 @@
 body
 {
     background-color: #ffffff;
-    color: #2e2f42;
+    color: #434455;
     font-family: "Roboto", sans-serif;
     font-size: 16px;
-    letter-spacing: 0.02em;
 }
 a
 {
@@ -12,11 +11,20 @@ a
     cursor: pointer;
     color: #2e2f42;
 }
-.contacts a
+.contacts
+{
+    font-style: normal;
+}
+.contacts .contact
 {
     color: #434455;
+    line-height: 1.5;
 }
-button
+.contacts .contact:hover, .contacts .contact:focus
+{
+    color: #404bbf;
+}
+.order-button
 {
     cursor: pointer;
     letter-spacing: 0.04em;
@@ -31,16 +39,15 @@ button
     line-height: 1.5;
     border: none;
 }
+.order-button:hover, .order-button:focus
+{
+    background-color: #404bbf;
+}
 ul, ol
 {
     list-style-type: none;
 }
-p
-{
-    font-weight: 400;
-    line-height: 1.5;
-    color: #434455;
-}
+
 .site-logo
 {
     font-family: "Raleway", sans-serif;
@@ -49,10 +56,6 @@ p
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-}
-
-.site-logo .part1
-{
     color: #4d5ae5;
 }
 
@@ -66,7 +69,39 @@ p
     font-weight: 500;
     line-height: 1.5;
     font-size: 16px;
-    width: 261px;
-    height: 24px;
-    margin-left: 76px;
+}
+
+.hero
+{
+    background-color: #2e2f42;
+}
+
+.team
+{
+    background-color: #f4f4fd;
+}
+
+.hero-header
+{
+    color: #ffffff;
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+}
+
+.member-header
+{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
+.member-description
+{
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
