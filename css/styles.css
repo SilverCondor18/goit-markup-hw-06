@@ -71,7 +71,7 @@ ul, ol
     font-size: 16px;
 }
 
-.hero
+.hero, .page-footer
 {
     background-color: #2e2f42;
 }
