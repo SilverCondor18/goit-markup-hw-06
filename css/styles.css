@@ -243,7 +243,7 @@ ul, ol
     gap: 24px;
 }
 
-.goals-item
+.goal-item
 {
     width: calc((100% - 72px) / 4);
 }
