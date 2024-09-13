@@ -282,7 +282,8 @@ ul, ol
 .port-item
 {
     width: calc((100% - 24px * 2) / 3);
-    border: 1px solid #e7e9fc;
+    /* border: 1px solid #e7e9fc; */
+    overflow: hidden;
 }
 
 .bottom-site-logo
