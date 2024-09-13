@@ -21,6 +21,7 @@ a
 ol, ul
 {
     padding: 0;
+    margin: 0;
 }
 h1, h2, h3, h4, h5, h6, p
 {
@@ -91,6 +92,7 @@ ul, ol
     text-transform: uppercase;
     color: #4d5ae5;
     margin-right: 76px;
+    display: inline-block;
 }
 
 .studio-dark
@@ -198,6 +200,7 @@ ul, ol
 {
     background-color: #ffffff;
     border-radius: 0px 0px 4px 4px;
+    overflow: hidden;
 }
 
 .footer-text
@@ -238,14 +241,15 @@ ul, ol
     padding-bottom: 188px;
 }
 
-.main-menu
-{
-    gap: 76px;
-}
-
 .nav-links, .contacts-list
 {
     gap: 40px;
+}
+
+.nav-links
+{
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 .goals-list, .member-list
@@ -262,8 +266,6 @@ ul, ol
 
 .member-list
 {
-    overflow: hidden;
-    padding-bottom: 32px;
     text-align: center;
 }
 
@@ -287,6 +289,7 @@ ul, ol
 {
     margin-bottom: 16px;
     display: inline-block;
+    margin-right: 0;
 }
 
 .site-header
