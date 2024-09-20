@@ -72,6 +72,7 @@ h1, h2, h3, h4, h5, h6, p
     display: block;
     border-radius: 4px;
     text-wrap: nowrap;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .order-button:hover, .order-button:focus
 {
@@ -178,7 +179,7 @@ ul, ol
 .member-info
 {
     padding-top: 32px;
-    padding-bottom: 8px;
+    padding-bottom: 32px;
 }
 
 .port-info
@@ -207,15 +208,26 @@ ul, ol
     background-color: #ffffff;
     border-radius: 0px 0px 4px 4px;
     overflow: hidden;
+    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
 }
 
-.footer-text, .footer-social-media-caption
+.footer-text
 {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #f4f4fd;
     width: 264px;
+}
+
+.footer-social-media-caption
+{
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #ffffff;
+    font-weight: 500;
+    margin-bottom: 16px;
 }
 
 .container
@@ -277,21 +289,14 @@ ul, ol
 .goal-item-icon-wrapper
 {
     width: 100%;
-    padding-top: 24px;
-    padding-bottom: 24px;
+    height: 112px;
+    display: flex;
     justify-content: center;
     align-items: center;
     border: 1px solid #8e8f99;
     border-radius: 4px;
     background-color: #f4f4fd;
     margin-bottom: 8px;
-}
-
-.goal-item-icon
-{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 .member-list
@@ -307,9 +312,16 @@ ul, ol
     justify-content: center;
     align-items: center;
     padding-bottom: 32px;
+    padding-top: 32px;
 }
 
 .member-social-link
+{
+    width: 40px;
+    height: 40px;
+}
+
+.member-social-link-href
 {
     display: flex;
     padding: 12px;
@@ -320,9 +332,14 @@ ul, ol
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.member-social-link:hover
+.member-social-link-href:hover
 {
     background-color: #404bbf;
+}
+
+.member-social-link-icon
+{
+    fill: #f4f4fd;
 }
 
 .member-social-link-href
@@ -396,28 +413,44 @@ ul, ol
 .footer-container
 {
     display: flex;
-    column-gap: 120px;
-    justify-content: baseline;
+    align-items: baseline;
+}
+
+.footer-info
+{
+    margin-right: 120px;
 }
 
 .footer-social-links
 {
     display: flex;
-    column-gap: 16px;
+    gap: 16px;
 }
 
 .footer-social-link
 {
+    width: 40px;
+    height: 40px;
+}
+
+.footer-social-link-href
+{
+    width: 100%;
+    height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 8px;
     background-color: #4d5ae5;
     border-radius: 50%;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.footer-social-link:hover
+.footer-social-link-icon
+{
+    fill: #f4f4fd;
+}
+
+.footer-social-link-href:hover
 {
     background-color: #31d0aa;
 }
