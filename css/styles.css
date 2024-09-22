@@ -109,6 +109,7 @@ ul, ol
 
 .nav-link
 {
+    display: block;
     font-weight: 500;
     line-height: 1.5;
     font-size: 16px;
@@ -223,6 +224,11 @@ ul, ol
     letter-spacing: 0.02em;
 }
 
+.member-description
+{
+    margin-bottom: 8px;
+}
+
 .member-list-item
 {
     background-color: #ffffff;
@@ -291,12 +297,6 @@ ul, ol
     gap: 40px;
 }
 
-.nav-links
-{
-    padding-top: 24px;
-    padding-bottom: 24px;
-}
-
 .goals-list, .member-list
 {
     display: flex;
@@ -345,7 +345,6 @@ ul, ol
 .member-social-link-href
 {
     display: flex;
-    padding: 12px;
     justify-content: center;
     align-items: center;
     background-color: #4d5ae5;
@@ -420,7 +419,7 @@ ul, ol
     padding: 40px 32px;
 }
 
-.port-item-wrapper:hover .port-item-overlay
+.port-item:hover .port-item-overlay
 {
     transform: translateY(0%);
 }
