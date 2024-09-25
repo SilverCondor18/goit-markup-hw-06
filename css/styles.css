@@ -631,11 +631,6 @@ ul, ol
     color: #8e8f99;
 }
 
-.modal-checkbox-label
-{
-    display: inline-flex;
-}
-
 .modal-checkbox-label-pp
 {
     line-height: 133%;
