@@ -243,7 +243,7 @@ ul, ol
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #f4f4fd;
-    width: 264px;
+    max-width: 264px;
 }
 
 .footer-social-media-caption
