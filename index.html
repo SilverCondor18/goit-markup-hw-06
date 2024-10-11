@@ -40,14 +40,14 @@
         <address class="contacts">
           <ul class="contacts-list">
             <li>
-              <a class="contact" href="mailto:info@devstudio.com"
-                >info@devstudio.com</a
-              >
+              <a class="contact" href="mailto:info@devstudio.com">
+                info@devstudio.com
+              </a>
             </li>
             <li>
-              <a class="contact" href="tel:+110001111111"
-                >+11 (000) 111-11-11</a
-              >
+              <a class="contact" href="tel:+110001111111">
+                +11 (000) 111-11-11
+              </a>
             </li>
           </ul>
         </address>
@@ -467,7 +467,7 @@
                       ./images/meditation-mobile.jpg    1x,
                       ./images/meditation-mobile@2x.jpg 2x
                     "
-                    media="(min-width: 320px)"
+                    media="(max-width: 767px)"
                   />
                   <img
                     class="port-item-picture"
@@ -767,9 +767,12 @@
           <use href="./images/icons.svg#icon-close"></use>
         </svg>
       </button>
+      <nav class="burger-menu-navigation">
         <ul class="burger-menu-links">
           <li class="burger-menu-links-item">
-            <a href="" class="burger-menu-link">Studio</a>
+            <a href="" class="burger-menu-link burger-menu-link-active">
+              Studio
+            </a>
           </li>
           <li class="burger-menu-links-item">
             <a href="" class="burger-menu-link">Portfolio</a>
@@ -778,46 +781,51 @@
             <a href="" class="burger-menu-link">Contacts</a>
           </li>
         </ul>
-        <address class="burger-contacts">
-          <ul class="burger-contacts-list">
-            <li>
-              <a class="burger-contact" href="mailto:info@devstudio.com">info@devstudio.com</a>
-            </li>
-            <li>
-              <a class="burger-contact" href="tel:+110001111111">+11 (000) 111-11-11</a>
-            </li>
-          </ul>
-        </address>
-        <ul class="burger-social-links">
-          <li class="burger-social-link-item">
-            <a href="" class="burger-social-link">
-              <svg class="burger-social-icon" width="24" height="24">
-                <use href="./images/icons.svg#icon-instagram"></use>
-              </svg>
+      </nav>
+      <address class="burger-contacts">
+        <ul class="burger-contacts-list">
+          <li>
+            <a class="burger-contact burger-phone" href="tel:+110001111111">
+              +11 (000) 111-11-11
             </a>
           </li>
-          <li class="burger-social-link-item">
-            <a href="" class="burger-social-link">
-              <svg class="burger-social-icon" width="24" height="24">
-                <use href="./images/icons.svg#icon-twitter"></use>
-              </svg>
-            </a>
-          </li>
-          <li class="burger-social-link-item">
-            <a href="" class="burger-social-link">
-              <svg class="burger-social-icon" width="24" height="24">
-                <use href="./images/icons.svg#icon-facebook"></use>
-              </svg>
-            </a>
-          </li>
-          <li class="burger-social-link-item">
-            <a href="" class="burger-social-link">
-              <svg class="burger-social-icon" width="24" height="24">
-                <use href="./images/icons.svg#icon-linkedin"></use>
-              </svg>
+          <li>
+            <a class="burger-contact" href="mailto:info@devstudio.com">
+              info@devstudio.com
             </a>
           </li>
         </ul>
+      </address>
+      <ul class="burger-social-links">
+        <li class="burger-social-link-item">
+          <a href="" class="burger-social-link">
+            <svg class="burger-social-icon" width="24" height="24">
+              <use href="./images/icons.svg#icon-instagram"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="burger-social-link-item">
+          <a href="" class="burger-social-link">
+            <svg class="burger-social-icon" width="24" height="24">
+              <use href="./images/icons.svg#icon-twitter"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="burger-social-link-item">
+          <a href="" class="burger-social-link">
+            <svg class="burger-social-icon" width="24" height="24">
+              <use href="./images/icons.svg#icon-facebook"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="burger-social-link-item">
+          <a href="" class="burger-social-link">
+            <svg class="burger-social-icon" width="24" height="24">
+              <use href="./images/icons.svg#icon-linkedin"></use>
+            </svg>
+          </a>
+        </li>
+      </ul>
     </div>
   </body>
 </html>
